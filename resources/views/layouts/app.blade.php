@@ -24,6 +24,9 @@
     <main class="max-w-4xl mx-auto px-4">
         @yield('content')
     </main>
+    <footer class="mt-12 py-4 text-center text-gray-500 text-sm">
+        &copy; {{ date('Y') }} Task Manager &mdash; Created by <a href="https://github.com/raoazwar" class="text-blue-600 hover:underline" target="_blank">Rao Azwar</a>
+    </footer>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </body>
 

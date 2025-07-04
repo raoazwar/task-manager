@@ -1,6 +1,14 @@
 # Task Manager
 
-A modern, beautiful, and responsive task management web application built with Laravel, Livewire, Alpine.js, and Tailwind CSS.
+<p align="center">
+  <img src="https://img.shields.io/badge/built%20with-Laravel%20%7C%20Livewire%20%7C%20Alpine.js%20%7C%20Tailwind%20CSS-blueviolet" alt="Tech Stack" />
+</p>
+
+A modern, beautiful, and responsive web application for managing your daily tasks with ease and style. Task Manager helps you stay organized, productive, and on top of your priorities with a delightful user experience.
+
+**Created and maintained by [Rao Azwar](https://github.com/raoazwar).**
+
+---
 
 ## Features
 

@@ -3,7 +3,7 @@
 @section('content')
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8" role="region" aria-label="Dashboard Overview">
     <!-- Welcome/User Info Card -->
-    <div class="bg-gradient-to-br from-indigo-500 to-blue-400 dark:from-gray-900 dark:to-gray-800 text-white rounded-xl shadow-lg p-6 flex flex-col justify-between" role="region" aria-label="User Info">
+    <div class="bg-gradient-to-br from-indigo-500 to-blue-400  text-white rounded-xl shadow-lg p-6 flex flex-col justify-between" role="region" aria-label="User Info">
         <div>
             <h2 class="text-xl font-bold mb-2">Welcome back, {{ Auth::user()->name }}!</h2>
             <p class="text-sm opacity-90">{{ Auth::user()->email }}</p>
@@ -11,7 +11,7 @@
         <a href="{{ route('profile') }}" class="mt-6 inline-block text-indigo-100 underline hover:text-white font-semibold focus:outline-none focus:ring-2 focus:ring-white rounded" aria-label="View Profile and Settings">View Profile & Settings</a>
     </div>
     <!-- Task Stats -->
-    <div class="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 flex flex-col items-center justify-center" role="region" aria-label="Task Overview">
+    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center justify-center" role="region" aria-label="Task Overview">
         <h3 class="text-lg font-semibold mb-2 text-gray-700">Task Overview</h3>
         <div class="flex space-x-6">
             <div class="text-center">
@@ -29,7 +29,7 @@
         </div>
     </div>
     <!-- Quick Add Task Button -->
-    <div class="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 flex flex-col items-center justify-center" role="region" aria-label="Quick Add Task">
+    <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center justify-center" role="region" aria-label="Quick Add Task">
         <button onclick="document.getElementById('quickAddModal').classList.remove('hidden')" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold shadow transition focus:outline-none focus:ring-2 focus:ring-indigo-400" aria-label="Quick Add Task">+ Quick Add Task</button>
         <a href="{{ route('tasks.index') }}" class="mt-4 text-indigo-600 hover:underline text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 rounded" aria-label="View All Tasks">View All Tasks</a>
     </div>
@@ -74,7 +74,7 @@
     </div>
 @endif
 <!-- Recent Tasks Preview -->
-<div class="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 mb-8" role="region" aria-label="Recent Tasks">
+<div class="bg-white  rounded-xl shadow-lg p-6 mb-8" role="region" aria-label="Recent Tasks">
     <h3 class="text-lg font-bold mb-4 text-gray-700">Recent Tasks</h3>
     @if($tasks->count())
         <ul class="divide-y divide-gray-200">

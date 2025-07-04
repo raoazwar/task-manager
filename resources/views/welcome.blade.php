@@ -104,8 +104,8 @@
                 <img src="https://img.freepik.com/free-vector/kanban-board-concept-illustration_114360-1495.jpg?w=826&t=st=1718030000~exp=1718030600~hmac=demo" alt="Kanban Board" class="rounded-xl shadow-xl w-full max-w-xs">
             </div>
         </main>
-        <footer class="py-8 text-center text-sm text-gray-500">
-            &copy; {{ date('Y') }} Task Manager. All rights reserved. | Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+        <footer class="mt-12 py-4 text-center text-gray-500 text-sm">
+            &copy; {{ date('Y') }} Task Manager &mdash; Created by <a href="https://github.com/raoazwar" class="text-blue-600 hover:underline" target="_blank">Rao Azwar</a>
         </footer>
     </body>
 </html>

@@ -58,3 +58,7 @@ new #[Layout('layouts.guest')] class extends Component
         </div>
     </div>
 </div>
+
+<footer class="w-full text-center py-4 text-gray-500 text-sm">
+    Made by <a href="https://github.com/raoazwar" target="_blank" class="text-indigo-600 hover:underline">rao azwar</a>
+</footer>
